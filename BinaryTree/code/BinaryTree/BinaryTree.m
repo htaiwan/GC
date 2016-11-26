@@ -1,56 +1,10 @@
-# 1. Simple binary tree traversal recursive functions
-* 前序(Pre-order) 根節點-左子樹-右子樹
-
-* 中序(In-order) 左子樹-根節點-右子樹
-
-* 後序(Post-order) 左子樹-右子樹-根節點
-
-* 程式碼
-
-``` objective-c
-
-#import <Foundation/Foundation.h>
-
-@interface Node : NSObject
-
-@property (nonatomic, strong) NSObject *object;
-@property (nonatomic, strong) Node *parent;
-@property (nonatomic, strong) Node *leftChild;
-@property (nonatomic, strong) Node *rightChild;
-
-- (BOOL)isLeftChildOfParent;
-
-@end
-
-#import "Node.h"
-
-@implementation Node
-
-- (BOOL)isLeftChildOfParent {
-    return self.parent.leftChild == self ? YES : NO;
-}
-
-@end
-
-```
-
-```objective-c
-#import <Foundation/Foundation.h>
-#import "Node.h"
-
-@interface BinaryTree : NSObject
-
-@property (nonatomic, strong) Node *root;
-
-- (BOOL)insertNode:(Node *)node parent:(Node *)parent isLeftChild:(BOOL)value;
-- (Node *)find:(NSObject *)object;
-
-- (void)preOrderTraversal;
-- (void)inOrderTraversal;
-- (void)postOrderTraversal;
-- (void)levelOrderTraversal;
-
-@end
+//
+//  BinaryTree.m
+//  test
+//
+//  Created by Chien-Tai Cheng on 11/26/16.
+//  Copyright © 2016 Chien-Tai Cheng. All rights reserved.
+//
 
 #import "BinaryTree.h"
 
@@ -156,49 +110,5 @@
     }
 }
 
-```
 
-```objective-c
-- (void)test {
-    // test data
-    NSArray *data = @[@"A", @"B", @"C", @"D", @"E", @"F"];
-
-    // build binary tree
-    BinaryTree *tree = [self buildBinaryTree:data];
-
-    // test inOrder
-    [tree inOrderTraversal];
-}
-
-- (BinaryTree *)buildBinaryTree:(NSArray *)data {
-    BinaryTree *tree = [[BinaryTree alloc] init];
-    NSMutableArray *queue = [[NSMutableArray alloc] init];
-
-    Node *node = [[Node alloc] init];
-    node.object = data.firstObject;
-    [queue addObject:node];
-
-    for (int i  = 1; i < data.count; i++) {
-        Node *node = [[Node alloc] init];
-        node.object = data[i];
-
-        Node *parent = [queue firstObject];
-        if (parent.leftChild != nil && parent.rightChild != nil) {
-            [queue removeObject:[queue firstObject]];
-            parent = [queue firstObject];
-        }
-
-        if (parent.leftChild == nil) {
-            [tree insertNode:node parent:parent isLeftChild:YES];
-        } else if (parent.leftChild != nil && parent.rightChild == nil) {
-            [tree insertNode:node parent:parent isLeftChild:NO];
-        }
-
-        [queue addObject:node];
-    }
-
-    return tree;
-}
-
-```
-
+@end
