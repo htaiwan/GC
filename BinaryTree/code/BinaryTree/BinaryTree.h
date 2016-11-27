@@ -22,5 +22,6 @@
 - (void)levelOrderTraversal;
 
 - (BOOL)isEqual:(BinaryTree *)tree;
+- (BOOL)isBinarySearchTree;
 
 @end

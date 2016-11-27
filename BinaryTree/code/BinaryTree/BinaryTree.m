@@ -116,11 +116,45 @@
 
 - (BOOL)isNodeEqual:(Node *)a b:(Node *)b {
     if ([a.object isEqual:b.object]) {
-        [self isNodeEqual:a.leftChild b:b.leftChild] && [self isNodeEqual:a.leftChild b:b.leftChild];
+        [self isNodeEqual:a.leftChild b:b.leftChild];
+        [self isNodeEqual:a.rightChild b:b.rightChild];
         return YES;
     } else {
         return NO;
     }
+}
+
+- (BOOL)isBinarySearchTree {
+    return [self isBSTUtil:self.root max:INT_MAX min:INT_MIN];
+}
+
+- (BOOL)isBSTUtil:(Node *)node max:(int)max min:(int)min {
+    BOOL result = YES;
+    // an empty tree is BST
+    if (node == nil) {
+        result = YES;
+    }
+    // check object
+    if ([node.object isKindOfClass:[NSNumber class]]) {
+        NSNumber *number = (NSNumber *)node.object;
+        if (number.intValue < min || number.intValue > max) {
+            result = NO;
+        } else {
+            BOOL result1 = YES;
+            BOOL result2 = YES;
+            if (node.leftChild) {
+               result1 = [self isBSTUtil:node.leftChild max:number.intValue - 1 min:min];
+            }
+            if (node.rightChild) {
+                result2 =[self isBSTUtil:node.rightChild max:max min:number.intValue + 1];
+            }
+            result = result1 && result2;
+        }
+    } else {
+        result = NO;
+    }
+
+    return result;
 }
 
 @end

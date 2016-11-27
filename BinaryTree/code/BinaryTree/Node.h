@@ -14,6 +14,7 @@
 @property (nonatomic, strong) Node *parent;
 @property (nonatomic, strong) Node *leftChild;
 @property (nonatomic, strong) Node *rightChild;
+@property (nonatomic, assign) SEL compareSelector;
 
 - (BOOL)isLeftChildOfParent;
 

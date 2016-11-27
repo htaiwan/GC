@@ -16,6 +16,7 @@
 		43D3B78D1DE97A5C004734E4 /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D3B78C1DE97A5C004734E4 /* testTests.m */; };
 		43D3B7991DE97A91004734E4 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D3B7981DE97A91004734E4 /* Node.m */; };
 		43D3B79C1DE97AAD004734E4 /* BinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D3B79B1DE97AAD004734E4 /* BinaryTree.m */; };
+		43D3B79F1DEA6B52004734E4 /* BinarySearchTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D3B79E1DEA6B52004734E4 /* BinarySearchTree.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		43D3B7981DE97A91004734E4 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
 		43D3B79A1DE97AAD004734E4 /* BinaryTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryTree.h; sourceTree = "<group>"; };
 		43D3B79B1DE97AAD004734E4 /* BinaryTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinaryTree.m; sourceTree = "<group>"; };
+		43D3B79D1DEA6B52004734E4 /* BinarySearchTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinarySearchTree.h; sourceTree = "<group>"; };
+		43D3B79E1DEA6B52004734E4 /* BinarySearchTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinarySearchTree.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 				43D3B7981DE97A91004734E4 /* Node.m */,
 				43D3B79A1DE97AAD004734E4 /* BinaryTree.h */,
 				43D3B79B1DE97AAD004734E4 /* BinaryTree.m */,
+				43D3B79D1DEA6B52004734E4 /* BinarySearchTree.h */,
+				43D3B79E1DEA6B52004734E4 /* BinarySearchTree.m */,
 				43D3B7711DE97A5C004734E4 /* test */,
 				43D3B78B1DE97A5C004734E4 /* testTests */,
 				43D3B7701DE97A5C004734E4 /* Products */,
@@ -229,6 +234,7 @@
 				43D3B77A1DE97A5C004734E4 /* ViewController.m in Sources */,
 				43D3B7771DE97A5C004734E4 /* AppDelegate.m in Sources */,
 				43D3B7741DE97A5C004734E4 /* main.m in Sources */,
+				43D3B79F1DEA6B52004734E4 /* BinarySearchTree.m in Sources */,
 				43D3B7991DE97A91004734E4 /* Node.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +434,7 @@
 				43D3B7931DE97A5C004734E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43D3B7941DE97A5C004734E4 /* Build configuration list for PBXNativeTarget "testTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +443,7 @@
 				43D3B7961DE97A5C004734E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

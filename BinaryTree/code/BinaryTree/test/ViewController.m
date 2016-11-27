@@ -21,7 +21,8 @@
     // Do any additional setup after loading the view, typically from a nib.
 
 //    [self test];
-    [self testEqual];
+//    [self testEqual];
+    [self testBinaryTree];
 }
 
 - (void)test {
@@ -82,6 +83,18 @@
     NSLog(@"1.%i",[tree1 isEqual:tree2]);
     NSLog(@"2.%i",[tree1 isEqual:tree3]);
     NSLog(@"3.%i",[tree2 isEqual:tree4]);
+}
+
+- (void)testBinaryTree {
+    // test data
+    NSArray *data1 = @[@(6), @(4), @(8), @(3), @(5), @(7), @(10)];
+    NSArray *data2 = @[@(1), @(2), @(3), @(4), @(5), @(6), @(7)];
+
+    BinaryTree *tree1 = [self buildBinaryTree:data1];
+    BinaryTree *tree2 = [self buildBinaryTree:data2];
+
+    NSLog(@"1.%i",[tree1 isBinarySearchTree]);
+    NSLog(@"2.%i",[tree2 isBinarySearchTree]);
 }
 
 
