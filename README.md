@@ -6,7 +6,7 @@
 [Ansswer](https://github.com/htaiwan/GC/blob/master/BinaryTree/1.md) 
 
 ### 2. Write a method to compare two binary trees.
-[Ansswer]()
+[Ansswer](https://github.com/htaiwan/GC/blob/master/BinaryTree/2.md)
 
 ### 3. Verify that a binary search tree is indeed a binary search tree.
 [Ansswer]()

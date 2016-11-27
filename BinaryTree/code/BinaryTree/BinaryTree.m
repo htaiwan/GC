@@ -110,5 +110,17 @@
     }
 }
 
+- (BOOL)isEqual:(BinaryTree *)tree {
+    return [self isNodeEqual:self.root b:tree.root];
+}
+
+- (BOOL)isNodeEqual:(Node *)a b:(Node *)b {
+    if ([a.object isEqual:b.object]) {
+        [self isNodeEqual:a.leftChild b:b.leftChild] && [self isNodeEqual:a.leftChild b:b.leftChild];
+        return YES;
+    } else {
+        return NO;
+    }
+}
 
 @end
