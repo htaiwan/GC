@@ -3,14 +3,14 @@
 ## Binary tree
 
 ### 1. Simple binary tree traversal recursive functions & Binary tree to list, in order The same list, back to in order binary tree
-[Answer](https://github.com/htaiwan/GC/blob/master/BinaryTree/1.md) 
+[Answer](https://github.com/htaiwan/GC/blob/master/Ans/1.md) 
 
 ### 2. Write a method to compare two binary trees.
-[Answer](https://github.com/htaiwan/GC/blob/master/BinaryTree/2.md)
+[Answer](https://github.com/htaiwan/GC/blob/master/Ans/2.md)
 
 ### 3. Verify that a binary search tree is indeed a binary search tree.
 ### 4. 判断一棵树是否是BST.
-[Answer](https://github.com/htaiwan/GC/blob/master/BinaryTree/3.md)
+[Answer](https://github.com/htaiwan/GC/blob/master/Ans/3.md)
 
 ### 5. Given a binary tree, write code to print the tree out line by line.
 [Answer]
@@ -26,9 +26,15 @@
 
 ### 1. Design a simple photo stream app  
 ### 2. Asked me to architect an app that pulls photos from a server and displays them in a feed
-[Answer](https://github.com/htaiwan/GC/blob/master/BinaryTree/4.md)
+[Answer](https://github.com/htaiwan/GC/blob/master/Ans/4.md)
 
 [Ref](https://www.codementor.io/ios/tutorial/ios-interview-tips-questions-answers-objective-c)
+
+
+## LeetCode
+
+### 1. Move Zeroes
+[Answer](https://github.com/htaiwan/GC/blob/master/Ans/5.md)
 
 
 
