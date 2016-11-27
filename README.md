@@ -19,5 +19,16 @@
 [Answer]
 
 ### 7. How would you copy a custom object like a "Node" from a search tree in Objective C?
-[Ansswer]
+[Answer]
+
+
+## Design
+
+### 1. Design a simple photo stream app  
+### 2. Asked me to architect an app that pulls photos from a server and displays them in a feed
+[Answer](https://github.com/htaiwan/GC/blob/master/BinaryTree/4.md)
+
+[Ref](https://www.codementor.io/ios/tutorial/ios-interview-tips-questions-answers-objective-c)
+
+
 
