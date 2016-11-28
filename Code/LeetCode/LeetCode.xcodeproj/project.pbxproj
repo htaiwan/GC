@@ -14,6 +14,7 @@
 		432708221DEB9FD7007EED61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432708211DEB9FD7007EED61 /* Assets.xcassets */; };
 		432708251DEB9FD7007EED61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432708231DEB9FD7007EED61 /* LaunchScreen.storyboard */; };
 		432708301DEB9FD7007EED61 /* LeetCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4327082F1DEB9FD7007EED61 /* LeetCodeTests.m */; };
+		4327083E1DEBA13C007EED61 /* MoveZero.m in Sources */ = {isa = PBXBuildFile; fileRef = 4327083D1DEBA13C007EED61 /* MoveZero.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		4327082B1DEB9FD7007EED61 /* LeetCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4327082F1DEB9FD7007EED61 /* LeetCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeetCodeTests.m; sourceTree = "<group>"; };
 		432708311DEB9FD7007EED61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4327083C1DEBA13C007EED61 /* MoveZero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveZero.h; sourceTree = "<group>"; };
+		4327083D1DEBA13C007EED61 /* MoveZero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveZero.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		432708091DEB9FD7007EED61 = {
 			isa = PBXGroup;
 			children = (
+				4327083A1DEBA0CB007EED61 /* Ans */,
 				432708141DEB9FD7007EED61 /* LeetCode */,
 				4327082E1DEB9FD7007EED61 /* LeetCodeTests */,
 				432708131DEB9FD7007EED61 /* Products */,
@@ -109,6 +113,24 @@
 				432708311DEB9FD7007EED61 /* Info.plist */,
 			);
 			path = LeetCodeTests;
+			sourceTree = "<group>";
+		};
+		4327083A1DEBA0CB007EED61 /* Ans */ = {
+			isa = PBXGroup;
+			children = (
+				4327083B1DEBA0CB007EED61 /* MoveZero */,
+			);
+			name = Ans;
+			path = LeetCode/Ans;
+			sourceTree = "<group>";
+		};
+		4327083B1DEBA0CB007EED61 /* MoveZero */ = {
+			isa = PBXGroup;
+			children = (
+				4327083C1DEBA13C007EED61 /* MoveZero.h */,
+				4327083D1DEBA13C007EED61 /* MoveZero.m */,
+			);
+			path = MoveZero;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4327083E1DEBA13C007EED61 /* MoveZero.m in Sources */,
 				4327081D1DEB9FD7007EED61 /* ViewController.m in Sources */,
 				4327081A1DEB9FD7007EED61 /* AppDelegate.m in Sources */,
 				432708171DEB9FD7007EED61 /* main.m in Sources */,
@@ -416,6 +439,7 @@
 				432708361DEB9FD7007EED61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		432708371DEB9FD7007EED61 /* Build configuration list for PBXNativeTarget "LeetCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +448,7 @@
 				432708391DEB9FD7007EED61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

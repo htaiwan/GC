@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MoveZero.h"
 
 @interface ViewController ()
 
@@ -16,13 +17,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    [self testMoveZero];
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)testMoveZero {
+    // test data
+    NSMutableArray *list = [[NSMutableArray alloc] initWithObjects:@(1),@(3),@(0),@(9),@(0),@(7),@(0),nil];
+    NSLog(@"%@", [MoveZero moveZero:list]);
 }
 
 
