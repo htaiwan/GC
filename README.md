@@ -42,7 +42,26 @@
 ### 3. Two sum
 [Answer](https://github.com/htaiwan/GC/blob/master/Ans/7.md)
 
+### 4. Connecting Graph - Union Find
+[Answer](https://github.com/htaiwan/GC/blob/master/Ans/8.md)
 
+### 5. Implement Trie - Trie
+[Answer](https://github.com/htaiwan/GC/blob/master/Ans/9.md)
+
+### 6. Number of Airplanes in the Sky - Sweep Line
+[Answer](https://github.com/htaiwan/GC/blob/master/Ans/10.md)
+
+### 7. Trapping Rain Water - Heap
+[Answer](https://github.com/htaiwan/GC/blob/master/Ans/11.md)
+
+### 8. Heapify - Heap
+[Answer](https://github.com/htaiwan/GC/blob/master/Ans/12.md)
+
+### 9. Data Stream Median - HashHeap
+[Answer](https://github.com/htaiwan/GC/blob/master/Ans/13.md)
+
+### 10.Sliding Window Maximum - Deque
+[Answer](https://github.com/htaiwan/GC/blob/master/Ans/14.md)
 
 
 
