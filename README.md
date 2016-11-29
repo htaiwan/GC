@@ -36,5 +36,10 @@
 ### 1. Move Zeroes
 [Answer](https://github.com/htaiwan/GC/blob/master/Ans/5.md)
 
+### 2. Kth Largest in N Arrays
+[Answer](https://github.com/htaiwan/GC/blob/master/Ans/6.md)
+
+
+
 
 
