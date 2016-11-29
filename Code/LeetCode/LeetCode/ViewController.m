@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "MoveZero.h"
 #import "KthInArrays.h"
+#import "TwoSum.h"
 
 @interface ViewController ()
 
@@ -20,7 +21,8 @@
     [super viewDidLoad];
 
 //    [self testMoveZero];
-    [self testKthInArrays];
+//    [self testKthInArrays];
+    [self testTwoSum];
 }
 
 
@@ -37,6 +39,13 @@
                 @[@3,@5,@9,@8]];
 
     NSLog(@"%@", @([KthInArrays KthLargestInArrays:3 arrays:data]));
+}
+
+- (void)testTwoSum {
+    // test data
+    NSArray *data = @[@5,@3,@2,@1,@9,@7];
+
+    NSLog(@"%@", [TwoSum twoSum:7 list:data]);
 }
 
 

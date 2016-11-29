@@ -15,6 +15,7 @@
 		432708251DEB9FD7007EED61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432708231DEB9FD7007EED61 /* LaunchScreen.storyboard */; };
 		432708301DEB9FD7007EED61 /* LeetCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4327082F1DEB9FD7007EED61 /* LeetCodeTests.m */; };
 		4327083E1DEBA13C007EED61 /* MoveZero.m in Sources */ = {isa = PBXBuildFile; fileRef = 4327083D1DEBA13C007EED61 /* MoveZero.m */; };
+		438BA4EF1DEDB50E00F55440 /* TwoSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 438BA4EE1DEDB50E00F55440 /* TwoSum.m */; };
 		43CC6B511DEC65210040F35A /* KthInArrays.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CC6B501DEC65210040F35A /* KthInArrays.m */; };
 		43CC6B541DEC66130040F35A /* KNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CC6B531DEC66130040F35A /* KNode.m */; };
 /* End PBXBuildFile section */
@@ -45,6 +46,8 @@
 		432708311DEB9FD7007EED61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4327083C1DEBA13C007EED61 /* MoveZero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveZero.h; sourceTree = "<group>"; };
 		4327083D1DEBA13C007EED61 /* MoveZero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveZero.m; sourceTree = "<group>"; };
+		438BA4ED1DEDB50E00F55440 /* TwoSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoSum.h; sourceTree = "<group>"; };
+		438BA4EE1DEDB50E00F55440 /* TwoSum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoSum.m; sourceTree = "<group>"; };
 		43CC6B4F1DEC65210040F35A /* KthInArrays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KthInArrays.h; sourceTree = "<group>"; };
 		43CC6B501DEC65210040F35A /* KthInArrays.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KthInArrays.m; sourceTree = "<group>"; };
 		43CC6B521DEC66130040F35A /* KNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNode.h; sourceTree = "<group>"; };
@@ -124,6 +127,7 @@
 		4327083A1DEBA0CB007EED61 /* Ans */ = {
 			isa = PBXGroup;
 			children = (
+				438BA4EC1DEDB25B00F55440 /* TwoSum  */,
 				43CC6B4E1DEC65050040F35A /* KthInArrays */,
 				4327083B1DEBA0CB007EED61 /* MoveZero */,
 			);
@@ -138,6 +142,15 @@
 				4327083D1DEBA13C007EED61 /* MoveZero.m */,
 			);
 			path = MoveZero;
+			sourceTree = "<group>";
+		};
+		438BA4EC1DEDB25B00F55440 /* TwoSum  */ = {
+			isa = PBXGroup;
+			children = (
+				438BA4ED1DEDB50E00F55440 /* TwoSum.h */,
+				438BA4EE1DEDB50E00F55440 /* TwoSum.m */,
+			);
+			path = "TwoSum ";
 			sourceTree = "<group>";
 		};
 		43CC6B4E1DEC65050040F35A /* KthInArrays */ = {
@@ -256,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4327083E1DEBA13C007EED61 /* MoveZero.m in Sources */,
+				438BA4EF1DEDB50E00F55440 /* TwoSum.m in Sources */,
 				4327081D1DEB9FD7007EED61 /* ViewController.m in Sources */,
 				4327081A1DEB9FD7007EED61 /* AppDelegate.m in Sources */,
 				43CC6B541DEC66130040F35A /* KNode.m in Sources */,

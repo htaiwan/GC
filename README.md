@@ -39,6 +39,10 @@
 ### 2. Kth Largest in N Arrays
 [Answer](https://github.com/htaiwan/GC/blob/master/Ans/6.md)
 
+### 3. Two sum
+[Answer](https://github.com/htaiwan/GC/blob/master/Ans/7.md)
+
+
 
 
 
