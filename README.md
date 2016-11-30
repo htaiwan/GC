@@ -22,13 +22,32 @@
 [Answer]
 
 
-## Design
+## iOS
 
 ### 1. Design a simple photo stream app  
-### 2. Asked me to architect an app that pulls photos from a server and displays them in a feed
+ * Asked me to architect an app that pulls photos from a server and displays them in a feed
+
 [Answer](https://github.com/htaiwan/GC/blob/master/Ans/4.md)
 
 [Ref](https://www.codementor.io/ios/tutorial/ios-interview-tips-questions-answers-objective-c)
+
+### 3. How to detect a common superview
+
+### 4. What is your least favorite Cocoa API 
+
+* What is your favorite framework? Why?
+
+
+### 5. iOS developers have a "dispatch_after(when, queue, block   )" Grand Central Dispatch (GCD) function they can utilize but once it's set up, these calls can not be easily cancelled. Describe how you might implement a more convenient version of this named "cancellable_dispatch_after" 
+
+ * How could you cancel a block in the operation queue after   it has been dispatched? 
+
+ * Complex question about GCD and blocks. Prepare yourself to talk about issues that may occur (deadlock, starvation, strong reference cycles).
+
+### 8. What are the negatives of a singleton instance
+
+### 9. How objects can send messages to each other in Objective-C
+
 
 
 ## LeetCode
