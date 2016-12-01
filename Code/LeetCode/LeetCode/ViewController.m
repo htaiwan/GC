@@ -10,6 +10,7 @@
 #import "MoveZero.h"
 #import "KthInArrays.h"
 #import "TwoSum.h"
+#import "ConnectingGraph.h"
 
 @interface ViewController ()
 
@@ -22,7 +23,8 @@
 
 //    [self testMoveZero];
 //    [self testKthInArrays];
-    [self testTwoSum];
+//    [self testTwoSum];
+    [self testConnectingGraph];
 }
 
 
@@ -46,6 +48,15 @@
     NSArray *data = @[@5,@3,@2,@1,@9,@7];
 
     NSLog(@"%@", [TwoSum twoSum:7 list:data]);
+}
+
+- (void)testConnectingGraph {
+    ConnectingGraph *graph = [[ConnectingGraph alloc] initWithGraph:5];
+    NSLog(@"%@", @([graph isConnected:1 b:2]));
+    [graph connectNode:1 b:2];
+    NSLog(@"%@", @([graph isConnected:1 b:3]));
+    [graph connectNode:2 b:4];
+    NSLog(@"%@", @([graph isConnected:1 b:4]));
 }
 
 

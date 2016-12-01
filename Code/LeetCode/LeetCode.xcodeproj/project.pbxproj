@@ -18,6 +18,7 @@
 		438BA4EF1DEDB50E00F55440 /* TwoSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 438BA4EE1DEDB50E00F55440 /* TwoSum.m */; };
 		43CC6B511DEC65210040F35A /* KthInArrays.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CC6B501DEC65210040F35A /* KthInArrays.m */; };
 		43CC6B541DEC66130040F35A /* KNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CC6B531DEC66130040F35A /* KNode.m */; };
+		43F7914A1DEF91B00053FC47 /* ConnectingGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F791491DEF91AF0053FC47 /* ConnectingGraph.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		43CC6B501DEC65210040F35A /* KthInArrays.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KthInArrays.m; sourceTree = "<group>"; };
 		43CC6B521DEC66130040F35A /* KNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNode.h; sourceTree = "<group>"; };
 		43CC6B531DEC66130040F35A /* KNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNode.m; sourceTree = "<group>"; };
+		43F791481DEF91AF0053FC47 /* ConnectingGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectingGraph.h; sourceTree = "<group>"; };
+		43F791491DEF91AF0053FC47 /* ConnectingGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectingGraph.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +130,7 @@
 		4327083A1DEBA0CB007EED61 /* Ans */ = {
 			isa = PBXGroup;
 			children = (
+				43F791471DEF919B0053FC47 /* ConnectingGraph */,
 				438BA4EC1DEDB25B00F55440 /* TwoSum  */,
 				43CC6B4E1DEC65050040F35A /* KthInArrays */,
 				4327083B1DEBA0CB007EED61 /* MoveZero */,
@@ -162,6 +166,15 @@
 				43CC6B501DEC65210040F35A /* KthInArrays.m */,
 			);
 			path = KthInArrays;
+			sourceTree = "<group>";
+		};
+		43F791471DEF919B0053FC47 /* ConnectingGraph */ = {
+			isa = PBXGroup;
+			children = (
+				43F791481DEF91AF0053FC47 /* ConnectingGraph.h */,
+				43F791491DEF91AF0053FC47 /* ConnectingGraph.m */,
+			);
+			path = ConnectingGraph;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +287,7 @@
 				4327081A1DEB9FD7007EED61 /* AppDelegate.m in Sources */,
 				43CC6B541DEC66130040F35A /* KNode.m in Sources */,
 				432708171DEB9FD7007EED61 /* main.m in Sources */,
+				43F7914A1DEF91B00053FC47 /* ConnectingGraph.m in Sources */,
 				43CC6B511DEC65210040F35A /* KthInArrays.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
