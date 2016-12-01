@@ -1,24 +1,15 @@
-# 7. Trapping Rain Water
+//
+//  RainWater.m
+//  LeetCode
+//
+//  Created by Chien-Tai Cheng on 12/1/16.
+//  Copyright © 2016 Chien-Tai Cheng. All rights reserved.
+//
 
-Given an interval list which are flying and landing time of the flight. How many Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.
+#import "RainWater.h"
 
-Example
+@implementation RainWater
 
-Given [0,1,0,2,1,0,1,3,2,1,2,1], return 6.
-
-* Idea
-two- pointer solution
-	
-* Complexity
-
-
-* Follow up
-
-[Trapping Rain Water II](http://www.lintcode.com/en/problem/trapping-rain-water-ii/)
-
-* Code
-
-``` objective-c
 + (int)trapRainWater:(NSArray *)data {
     int result = 0;
     int left = 0;
@@ -48,14 +39,5 @@ two- pointer solution
 
     return result;
 }
-```
 
-``` objective-c
-- (void)testTrappingRainWater {
-    // test data
-    NSArray *data = @[@0,@1,@0,@2,@1,@0,@1,@3,@2,@1,@2,@1];
-    NSLog(@"%@",@([RainWater trapRainWater:data]));
-}
-
-```
-
+@end

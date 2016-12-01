@@ -11,6 +11,7 @@
 #import "KthInArrays.h"
 #import "TwoSum.h"
 #import "ConnectingGraph.h"
+#import "RainWater.h"
 
 @interface ViewController ()
 
@@ -24,7 +25,8 @@
 //    [self testMoveZero];
 //    [self testKthInArrays];
 //    [self testTwoSum];
-    [self testConnectingGraph];
+//    [self testConnectingGraph];
+    [self testTrappingRainWater];
 }
 
 
@@ -57,6 +59,12 @@
     NSLog(@"%@", @([graph isConnected:1 b:3]));
     [graph connectNode:2 b:4];
     NSLog(@"%@", @([graph isConnected:1 b:4]));
+}
+
+- (void)testTrappingRainWater {
+    // test data
+    NSArray *data = @[@0,@1,@0,@2,@1,@0,@1,@3,@2,@1,@2,@1];
+    NSLog(@"%@",@([RainWater trapRainWater:data]));
 }
 
 
