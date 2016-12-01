@@ -12,6 +12,7 @@
 #import "TwoSum.h"
 #import "ConnectingGraph.h"
 #import "RainWater.h"
+#import "DataStreamMedian.h"
 
 @interface ViewController ()
 
@@ -26,7 +27,8 @@
 //    [self testKthInArrays];
 //    [self testTwoSum];
 //    [self testConnectingGraph];
-    [self testTrappingRainWater];
+//    [self testTrappingRainWater];
+    [self testDataStreamMedian];
 }
 
 
@@ -65,6 +67,13 @@
     // test data
     NSArray *data = @[@0,@1,@0,@2,@1,@0,@1,@3,@2,@1,@2,@1];
     NSLog(@"%@",@([RainWater trapRainWater:data]));
+}
+
+- (void)testDataStreamMedian {
+    // test data
+//    NSArray *data = @[@4, @5, @1, @3, @2, @6, @0];
+    NSArray *data = @[@2,@20,@100];
+    NSLog(@"%@",[DataStreamMedian getDataStreamMedian:data]);
 }
 
 
