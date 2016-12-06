@@ -76,5 +76,11 @@
     NSLog(@"%@",[DataStreamMedian getDataStreamMedian:data]);
 }
 
+- (void)testSlidingWindowMaximum {
+    // test data
+    NSArray *data = @[@1, @2, @7, @7, @8];
+    NSLog(@"%@",[DataStreamMedian getDataStreamMedian:data]);
+}
+
 
 @end
